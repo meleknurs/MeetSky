@@ -35,6 +35,20 @@ public class ContactsPage {
     @FindBy(xpath = "//*[.='Choose from Files']")
     public WebElement chooseFromFilesButton;
 
+    @FindBy(xpath = "//*[.='Alyson-Hannigan-Willow-Ros']")
+    public WebElement image;
+
+    @FindBy(xpath = "//button[.='Choose']")
+    public WebElement chooseButton;
+
+   @FindBy(xpath ="(//span[@role='img'])[15]" )
+    public WebElement threeDotsButton;
+
+   @FindBy(xpath = "(//*[.='Delete'])[5]")
+    public WebElement deleteOption;
+
+
+
     
 
 

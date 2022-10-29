@@ -26,7 +26,7 @@ public class Hooks {
         System.out.println("===this will only apply to scenarios with @db tag");
     }
 
-    @After
+   /* @After
     public void teardownScenario(Scenario scenario){
         //scenario.isFailed() --> if scenario fails this method will return TRUE boolean value
 
@@ -40,6 +40,8 @@ public class Hooks {
         //System.out.println("===Closing browser using cucumber  @After");
         // System.out.println("====Scenario ended/ Take screenshot if failed");
     }
+
+    */
 
     // @BeforeStep
     public void setupStep(){

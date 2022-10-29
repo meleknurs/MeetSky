@@ -6,7 +6,6 @@ Feature: Contacts Module Functionality
     Given the user is on the login page
     And the user enters the contacts menu
 
-
   Scenario: Creating new contact verification
     When  user click new contact button
     And user enter first and last name in the new contact box
@@ -18,9 +17,12 @@ Feature: Contacts Module Functionality
     And user refresh the page
     Then user should see that empty contact names disappeared
 
-  Scenario: Seeing all the contacts and total number of contacts verification
+  Scenario: Seeing all the contacts in the middle column verification
     When user click All contacts button
     Then user should able to see the contact list in the middle column
+
+  Scenario: Seeing all the contacts in the total number of contacts verification
+    When user click All contacts button
     Then user should able to see total number near the All contacts button
 
   Scenario: Changing profile picture of contact verification
