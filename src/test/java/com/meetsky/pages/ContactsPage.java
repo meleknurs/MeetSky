@@ -2,6 +2,7 @@
 package com.meetsky.pages;
 
 import com.meetsky.utilities.Driver;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
@@ -25,7 +26,10 @@ public class ContactsPage {
     @FindBy(xpath="//span[@title='All contacts']")
     public WebElement AllContactsButton;
 
-    @FindBy(xpath = "//div[@class='app-navigation-entry__counter']")
+    @FindBy(id = "everyone")
+    public WebElement AllContactsButtonArea;
+
+    @FindBy(xpath= "//*[@id=\"notgrouped\"]/div/div[1]/div")
     public WebElement AllContactsNumber;
 
 
@@ -34,6 +38,23 @@ public class ContactsPage {
 
     @FindBy(xpath = "//*[.='Choose from Files']")
     public WebElement chooseFromFilesButton;
+
+    @FindBy(xpath = "//*[.='willo']")
+    public WebElement image;
+
+    @FindBy(xpath = "(//div[@class='unknown'])[3]")
+    public WebElement defaultAvatar;
+
+    @FindBy(xpath = "//button[.='Choose']")
+    public WebElement chooseButton;
+
+   @FindBy(xpath ="(//span[@role='img'])[15]" )
+    public WebElement threeDotsButton;
+
+   @FindBy(xpath = "(//*[.='Delete'])[5]")
+    public WebElement deleteOption;
+
+
 
     
 
