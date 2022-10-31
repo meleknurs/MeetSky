@@ -29,7 +29,7 @@ Feature: Contacts Module Functionality
     When user click All contacts button
     Then user should able to see total number near the All contacts button
 
-  @ETSKY-848 @wip
+  @ETSKY-848 @wip @trial
   Scenario: Changing profile picture of contact verification
     When user click picture icon under the contact name
     And user select choose from Files option

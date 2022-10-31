@@ -29,10 +29,6 @@ public class ContactsPage {
     @FindBy(id = "everyone")
     public WebElement AllContactsButtonArea;
 
-    @FindBy(id = "notgrouped")
-    public WebElement NotGroupedButtonArea;
-
-
     @FindBy(xpath= "//*[@id=\"notgrouped\"]/div/div[1]/div")
     public WebElement AllContactsNumber;
 
@@ -43,11 +39,8 @@ public class ContactsPage {
     @FindBy(xpath = "//*[.='Choose from Files']")
     public WebElement chooseFromFilesButton;
 
-    @FindBy(xpath = "//*[.='Alyson-Hannigan-Willow-Ros']")
+    @FindBy(xpath = "//*[.='willo']")
     public WebElement image;
-
-    @FindBy(xpath = "(//div[@aria-label='"+"ConfigurationReader.getProperty(\"contact.fullName\")"+"']/img)[1]")
-    public WebElement contactAvatar;
 
     @FindBy(xpath = "(//div[@class='unknown'])[3]")
     public WebElement defaultAvatar;

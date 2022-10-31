@@ -1,1 +1,1 @@
-file:src/test/resources/features/contact.feature:28:33
+file:src/test/resources/features/contact.feature:33

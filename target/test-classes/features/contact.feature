@@ -29,7 +29,7 @@ Feature: Contacts Module Functionality
     When user click All contacts button
     Then user should able to see total number near the All contacts button
 
-  @ETSKY-848 @wip
+  @ETSKY-848 @wip @trial
   Scenario: Changing profile picture of contact verification
     When user click picture icon under the contact name
     And user select choose from Files option
@@ -37,7 +37,7 @@ Feature: Contacts Module Functionality
     And user click Choose button
     Then user should be able to see chosen picture as a profile picture
 
-  @ETSKY-849 @wip @deneme
+  @ETSKY-849 @wip
   Scenario: Deleting contact verification
     When user click three dots of any contact
     And user select delete option

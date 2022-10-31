@@ -156,6 +156,8 @@ public class Contacts_StepDefinitions {
 
         Assert.assertFalse(contactsPage.defaultAvatar.isDisplayed());
 
+        //Alyson
+
         //System.out.println("contactsPage.contactAvatar.isDisplayed() = " + contactsPage.contactAvatar.isDisplayed());
         // System.out.println(contactsPage.contactAvatar.getAttribute("src"));
 
